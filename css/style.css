@@ -1,117 +1,126 @@
 body {
-  background: url(/img/cream_dust.png) repeat 0 0;
+	background: url(/img/cream_dust.png) repeat 0 0;
 }
 
-body,html {
-    height: 100%;
-  }
-  
-  body {
-    padding-top: 50px;
-  }
-  
-  .wide {
-    min-width:100%;
-    height:100%;
-    height:calc(100% - 1px);
-    background: url('https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
-     /*url('https://c.stocksy.com/a/RcN300/z0/805779.jpg');*/
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-  }
-  
-  .wide img {
-    width:100%;
-  }
-  
-  .logo {
-    color:#fff;
-    font-weight:800;
-    font-size:14pt;
-    padding:25px;
-    text-align:center;
-  }
-  
-  .line {
-    padding-top:20px;
-    white-space:no-wrap;
-    overflow:hidden;
-    text-align:center;
-  }
-  
-  .wide .row {
-    margin-right:0;
-  }
+body, html {
+	height: 100%;
+}
 
-  .text-white {
-    color:white;
-  }
+body {
+	padding-top: 50px;
+	hyphens: auto;
+}
 
-  #intro {
-    padding: 10em;
-    background: rgba(255, 255, 255, 0.15)
-  }
+.wide {
+	min-width: 100%;
+	height: 100%;
+	height: calc(100% - 1px);
+	background:
+		url('https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')
+		no-repeat center center fixed;
+	/*url('https://c.stocksy.com/a/RcN300/z0/805779.jpg');*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#wideAbout {
+	background: url('./img/office_building2.jpg') no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.wide img {
+	width: 100%;
+}
+
+.logo {
+	color: #fff;
+	font-weight: 800;
+	font-size: 14pt;
+	padding: 25px;
+	text-align: center;
+}
+
+.line {
+	padding-top: 20px;
+	white-space: no-wrap;
+	overflow: hidden;
+	text-align: center;
+}
+
+.wide .row {
+	margin-right: 0;
+}
+
+.text-white {
+	color: white;
+}
+
+#intro {
+	padding: 10em;
+	background: rgba(255, 255, 255, 0.15)
+}
 
 #intro em {
-  color:#43c73e;
+	color: #43c73e;
 }
 
 #howtouse {
-  background-color:#43c73e;
+	background-color: #43c73e;
 }
 
 #howtouse h1, #howtouse p {
-  color: white;
-  
+	color: white;
 }
 
-
-#jimminy > div {
-  padding: 7em;
-  padding-top: 4em;
-  padding-bottom: 2em;
+#jimminy>div {
+	padding: 7em;
+	padding-top: 4em;
+	padding-bottom: 2em;
 }
 
-#jimminy > div {
-  font-size: 1.7em;
+#jimminy>div {
+	font-size: 1.7em;
 }
 
 #jimminy p {
-  margin-bottom: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 #jimminy h1 {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 #jimminy .container {
-  padding: 0;
+	padding: 0;
 }
 
 footer {
-  color: #ddd;
-  background-color: #333;
-  height: 6em;
-  padding-top:2em;
-  font-size: 1.5em;
-  display:block;
- 
+	color: #ddd;
+	background-color: #333;
+	height: 6em;
+	padding-top: 2em;
+	font-size: 1.5em;
+	display: block;
 }
 
 footer a {
-  color: #43c73e;
-  -moz-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  -webkit-transition: all .3s ease-in;
-  transition: all .3s ease-in;
+	color: #43c73e;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 }
 
 footer a:hover {
-  color:white;
+	color: white;
 }
 
 #use {
-  display: none;
+	display: none;
 }
