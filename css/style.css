@@ -8,6 +8,7 @@ body,html {
   
   body {
     padding-top: 50px;
+    hyphens: auto;
   }
   
   .wide {
@@ -17,6 +18,14 @@ body,html {
     background: url('https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center center fixed;
      /*url('https://c.stocksy.com/a/RcN300/z0/805779.jpg');*/
      -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+  }
+  
+  #wideAbout {
+  	background: url('./img/office_building2.jpg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
