@@ -25,6 +25,15 @@ body {
 	background-size: cover;
 }
 
+#wideHoes{
+background: url('https://cdn.getyourguide.com/img/tour_img-501798-148.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
 #wideAbout {
 	background: url('./img/office_building2.jpg') no-repeat center center
 		fixed;
@@ -120,4 +129,3 @@ footer a {
 footer a:hover {
 	color: white;
 }
-
