@@ -35,7 +35,7 @@ background-size: cover;
 
 
 #wideAbout {
-	background: url('./img/office_building2.jpg') no-repeat center center
+	background: url('https://images.unsplash.com/photo-1497215842964-222b430dc094?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb') no-repeat center center
 		fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
